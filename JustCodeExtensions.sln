@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustCode.Navigation", "JustCode.Navigation\JustCode.Navigation.csproj", "{71E850A0-2A90-48B7-93F0-D8D8C34A07BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustCode.Analyzers", "JustCode.Analyzers\JustCode.Analyzers.csproj", "{8C08E3A6-CA9F-42E7-9E3E-2312EEDD354D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustCode.Cleaning", "JustCode.Cleaning\JustCode.Cleaning.csproj", "{8A016F6E-2B8F-4208-BD57-97D181C48AAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71E850A0-2A90-48B7-93F0-D8D8C34A07BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E850A0-2A90-48B7-93F0-D8D8C34A07BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E850A0-2A90-48B7-93F0-D8D8C34A07BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E850A0-2A90-48B7-93F0-D8D8C34A07BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C08E3A6-CA9F-42E7-9E3E-2312EEDD354D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C08E3A6-CA9F-42E7-9E3E-2312EEDD354D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C08E3A6-CA9F-42E7-9E3E-2312EEDD354D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C08E3A6-CA9F-42E7-9E3E-2312EEDD354D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A016F6E-2B8F-4208-BD57-97D181C48AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A016F6E-2B8F-4208-BD57-97D181C48AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A016F6E-2B8F-4208-BD57-97D181C48AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A016F6E-2B8F-4208-BD57-97D181C48AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
