@@ -1,6 +1,6 @@
 Telerik has built extensions for JustCode to demonstrate usage of the public JustCode API and to collect individual contributions for JustCode in one package. These extensions are open sourced and licensed under MS-PL. You are welcome to use this project as the basis for creating your own.
 
-1) Perquisites:
+1) Prerequisites:
 
 - Microsoft Visual Studio: http://msdn.microsoft.com
 - The Visual Studio SDK: http://msdn.microsoft.com/en-US/vstudio/vextend
