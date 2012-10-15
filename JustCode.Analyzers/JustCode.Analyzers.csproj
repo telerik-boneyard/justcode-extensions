@@ -38,6 +38,7 @@
   <ItemGroup>
     <Compile Include="EnumerableExtensions.cs" />
     <Compile Include="ExcessiveLocalVariables.cs" />
+    <Compile Include="MissingDocumentationWarning.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemoveNewDelegateCreation.cs" />
     <Compile Include="SimplifyUnnecessaryFullyQualifiedTypeNames.cs" />
@@ -55,6 +56,10 @@
     </Reference>
     <Reference Include="Telerik.JustCode.CommonLanguageModel.Data">
       <HintPath>$(ProgramFiles)\Telerik\JustCode\Libraries\Telerik.JustCode.CommonLanguageModel.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Telerik.JustCode.CommonLanguageModel.Extensions">
+      <HintPath>$(ProgramFiles)\Telerik\JustCode\Libraries\Telerik.JustCode.CommonLanguageModel.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Telerik.JustCode.CommonLanguageModel.UI">
