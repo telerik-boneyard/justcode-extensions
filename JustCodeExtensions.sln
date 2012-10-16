@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustCode.Analyzers", "JustC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustCode.Cleaning", "JustCode.Cleaning\JustCode.Cleaning.csproj", "{8A016F6E-2B8F-4208-BD57-97D181C48AAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustCode.Refactorings", "JustCode.Refactorings\JustCode.Refactorings.csproj", "{FF0BCE35-277D-4B8C-BAC9-4FBBEA7931E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{8A016F6E-2B8F-4208-BD57-97D181C48AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A016F6E-2B8F-4208-BD57-97D181C48AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A016F6E-2B8F-4208-BD57-97D181C48AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF0BCE35-277D-4B8C-BAC9-4FBBEA7931E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0BCE35-277D-4B8C-BAC9-4FBBEA7931E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0BCE35-277D-4B8C-BAC9-4FBBEA7931E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0BCE35-277D-4B8C-BAC9-4FBBEA7931E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,7 +3,7 @@ using System.ComponentModel.Composition;
 using Telerik.JustCode.CommonLanguageModel;
 using Telerik.JustCode.CommonLanguageModel.Extensions;
 
-namespace MissingDocumentationWarning
+namespace JustCode.Analyzers
 {
 	[Export(typeof(IEngineModule))]
 	[Export(typeof(ICodeMarkerGroupDefinition))]
