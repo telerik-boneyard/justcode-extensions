@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Vsix Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
-  <Identifier Id="JustCode.Refactorings.d06c4733-d609-4ba6-97f9-c9f758080b1f">
+  <Identifier Id="Telerik.JustCode.Refactorings.d06c4733-d609-4ba6-97f9-c9f758080b1f">
     <Name>JustCode.Refactorings</Name>
     <Author>Telerik</Author>
     <Version>1.0</Version>
