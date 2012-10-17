@@ -6,6 +6,7 @@
     <Version>1.0</Version>
     <Description xml:space="preserve">JustCode extension that provides additional code cleaning steps. This is an example project you can find at www.github.com/telerik/justcode-extensions</Description>
     <Locale>1033</Locale>
+    <License>MS-PL.rtf</License>
     <SupportedProducts>
         <VisualStudio Version="10.0">
             <Edition>Ultimate</Edition>
