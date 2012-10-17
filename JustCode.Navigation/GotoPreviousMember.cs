@@ -50,7 +50,8 @@ namespace JustCode.Navigation
 				return false;
 			}
 
-			return fileModel.MemberIdentifierAt(selection).ExistsTextuallyInFile;
+			IMemberDeclaration member = fileModel.InnerMost<IMemberDeclaration>(selection);
+			return member.ExistsTextuallyInFile && member.Identifier.CodeSpan.Intersects(selection);
 		}
 
 		public override void Execute(SolutionModel solutionModel, SelectionContext context)
@@ -63,7 +64,7 @@ namespace JustCode.Navigation
 				return;
 			}
 
-			IMemberDeclaration memberDeclaration = fileModel.MemberIdentifierAt(selection);
+			IMemberDeclaration memberDeclaration = fileModel.InnerMost<IMemberDeclaration>(selection);
 			if (memberDeclaration.ExistsTextuallyInFile)
 			{
 				IMemberDeclaration previousMember = memberDeclaration.PreviousMember();
