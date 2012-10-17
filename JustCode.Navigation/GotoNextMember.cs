@@ -26,9 +26,7 @@ namespace JustCode.Navigation
 		{
 			get
 			{
-				yield return new CommandMenuLocation(CommandMenuLocation.NavigateSubMenu, 100, 1);
-				yield return new CommandMenuLocation(CommandMenuLocation.NavigateContextMenu, 100, 1);
-				yield return new CommandMenuLocation(CommandMenuLocation.NavigateVisualAidMenu, 100, 1);
+				return PlaceInNavigateMenus(100, 1);
 			}
 		}
 
