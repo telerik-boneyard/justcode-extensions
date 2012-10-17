@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Vsix Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
-  <Identifier Id="JustCode.Refactorings.Microsoft.47b317b2-a398-4cee-8100-0d22d2887428">
+  <Identifier Id="JustCode.Refactorings.d06c4733-d609-4ba6-97f9-c9f758080b1f">
     <Name>JustCode.Refactorings</Name>
-    <Author>Microsoft</Author>
+    <Author>Telerik</Author>
     <Version>1.0</Version>
-    <Description xml:space="preserve">This is a sample extension for Telerik JustCode.</Description>
+    <Description xml:space="preserve">JustCode extension that provides additional refactoring features. This is an example project you can find at www.github.com/telerik/justcode-extensions.</Description>
     <Locale>1033</Locale>
     <SupportedProducts>
 			<VisualStudio Version="10.0">

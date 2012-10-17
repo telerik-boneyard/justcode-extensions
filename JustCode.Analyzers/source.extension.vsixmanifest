@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Vsix Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
-  <Identifier Id="JustCode.Analyzers.Microsoft.47b317b2-a398-4cee-8100-0d22d2887428">
+  <Identifier Id="Telerik.JustCode.Analyzers.1cc72460-dcee-4dde-92d0-6e79403f35de">
     <Name>JustCode.Analyzers</Name>
     <Author>Telerik</Author>
     <Version>1.0</Version>

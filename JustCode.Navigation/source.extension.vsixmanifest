@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Vsix Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
-  <Identifier Id="JustCode.Navigation.Microsoft.47b317b2-a398-4cee-8100-0d22d2887428">
+  <Identifier Id="Telerik.JustCode.Navigation.7a6e13ff-8830-4d6c-bd44-642e7591b899">
     <Name>JustCode.Navigation</Name>
     <Author>Telerik</Author>
     <Version>1.0</Version>
