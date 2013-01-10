@@ -75,6 +75,10 @@
       <HintPath>$(ProgramFiles)\Telerik\JustCode\Libraries\Telerik.JustCode.Settings.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Telerik.JustCode.CommonLanguageModel.Extensions">
+      <HintPath>$(ProgramFiles)\Telerik\JustCode\Libraries\Telerik.JustCode.CommonLanguageModel.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\VSSDK\Microsoft.VsSDK.targets" />

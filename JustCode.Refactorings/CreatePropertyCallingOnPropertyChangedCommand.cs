@@ -2,6 +2,7 @@
 using System.ComponentModel.Composition;
 using System.Linq;
 using Telerik.JustCode.CommonLanguageModel;
+using Telerik.JustCode.CommonLanguageModel.Extensions;
 
 namespace JustCode.Refactorings
 {

@@ -258,7 +258,7 @@ namespace JustCode.Refactorings
 
 			IParameter parameter = language.Parameter(typeName);
 			NamingPolicy parameterNamingPolicy = parameter.PrimaryNamingPolicy(classDeclaration.FileModel.UserSettings);
-			string parameterName = parameterNamingPolicy.ChangeNameAccordingToPolicy(classDeclaration.Identifier.Name, classDeclaration.SolutionModel);
+			string parameterName = parameterNamingPolicy.ChangeNameAccordingToPolicy(classDeclaration.Identifier.Name, classDeclaration.Language, classDeclaration.FileModel);
 			parameter.Identifier = language.Identifier(parameterName);
 			Modifiers constructorModifiers = Modifiers.Public;
 			Modifiers visibility = classDeclaration.Modifiers.Modifiers.GetVisibility();
@@ -284,7 +284,7 @@ namespace JustCode.Refactorings
 		{
 			IFieldDeclaration fieldDeclaration = language.Field(language.Modifiers(Modifiers.Private | Modifiers.Readonly), typeName);
 			NamingPolicy fieldsNamingPolicy = fieldDeclaration.PrimaryNamingPolicy(classDeclaration.FileModel.UserSettings);
-			string fieldName = fieldsNamingPolicy.ChangeNameAccordingToPolicy(classDeclaration.Identifier.Name, classDeclaration.SolutionModel);
+			string fieldName = fieldsNamingPolicy.ChangeNameAccordingToPolicy(classDeclaration.Identifier.Name, classDeclaration.Language, classDeclaration.FileModel);
 			fieldDeclaration.Identifier = language.Identifier(fieldName);
 			return fieldDeclaration;
 		}

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Telerik.JustCode.CommonLanguageModel;
+using Telerik.JustCode.CommonLanguageModel.Extensions;
 
 namespace JustCode.Refactorings
 {
@@ -45,7 +46,7 @@ namespace JustCode.Refactorings
 				language.TypeName(eventDeclaration.StringTypeAtThisLocation()),
 				parameter.DefaultValue);
 
-			string parameterName = parametersNamingPolicy.ChangeNameAccordingToPolicy("propertyName", parameter.SolutionModel);
+			string parameterName = parametersNamingPolicy.ChangeNameAccordingToPolicy("propertyName", parameter.Language, fileModel);
 			newParameter.Identifier = language.Identifier(parameterName);
 
 			IObjectCreation objectCreation = language.ObjectCreation(
@@ -81,7 +82,7 @@ namespace JustCode.Refactorings
 
 			NamingPolicy methodsNamingPolicy = method.PrimaryNamingPolicy(eventDeclaration.FileModel.UserSettings);
 			string methodName = methodsNamingPolicy.ChangeNameAccordingToPolicy("Raise" + eventDeclaration.Identifier.Name + "Event",
-				eventDeclaration.SolutionModel);
+				eventDeclaration.Language, eventDeclaration.FileModel);
 
 			method.Identifier = language.Identifier(methodName);
 
@@ -97,7 +98,7 @@ namespace JustCode.Refactorings
 
 			NamingPolicy variablesNamingPolicy = variable.PrimaryNamingPolicy(eventDeclaration.FileModel.UserSettings);
 			string variableName = variablesNamingPolicy.ChangeNameAccordingToPolicy("on" + eventDeclaration.Identifier.Name,
-				eventDeclaration.SolutionModel);
+				eventDeclaration.Language, eventDeclaration.FileModel);
 
 			variable.Identifier = language.Identifier(variableName);
 
@@ -125,7 +126,7 @@ namespace JustCode.Refactorings
 
 			NamingPolicy methodsNamingPolicy = method.PrimaryNamingPolicy(eventDeclaration.FileModel.UserSettings);
 			string methodName = methodsNamingPolicy.ChangeNameAccordingToPolicy("on" + eventDeclaration.Identifier.ToUpperFirstLetter().Name,
-				eventDeclaration.SolutionModel);
+				eventDeclaration.Language, eventDeclaration.FileModel);
 
 			method.Identifier = language.Identifier(methodName);
 
