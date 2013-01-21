@@ -3,7 +3,7 @@
   <Identifier Id="Telerik.JustCode.Navigation.7a6e13ff-8830-4d6c-bd44-642e7591b899">
     <Name>JustCode.Navigation</Name>
     <Author>Telerik</Author>
-    <Version>1.0</Version>
+    <Version>1.1</Version>
     <Description xml:space="preserve">JustCode extension that provides additional navigation features. This is an example project you can find at www.github.com/telerik/justcode-extensions</Description>
     <Locale>1033</Locale>
     <License>MS-PL.rtf</License>

@@ -3,7 +3,7 @@
   <Identifier Id="Telerik.JustCode.Refactorings.d06c4733-d609-4ba6-97f9-c9f758080b1f">
     <Name>JustCode.Refactorings</Name>
     <Author>Telerik</Author>
-    <Version>1.0</Version>
+    <Version>1.1</Version>
     <Description xml:space="preserve">JustCode extension that provides additional refactoring features. This is an example project you can find at www.github.com/telerik/justcode-extensions.</Description>
     <Locale>1033</Locale>
     <License>MS-PL.rtf</License> 
