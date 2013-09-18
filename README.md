@@ -3,7 +3,7 @@ Telerik has built extensions for JustCode to demonstrate usage of the public Jus
 NOTE: Recently we upgraded JustCode (from version 2013.3.912.2) for .NET Framework 4.0 and also reworked a bit the way JustCode integrates with Visual Studio (the biggest change is that we now use the MEF infrastructure provided directly from Visual Studio) and that caused some breaking changes in our extensions API. To fix your extensions you need to do the following changes:
  - Change the [assembly: SupportsCodeModelApiVersion(2)] in your AssemblyInfo to [assembly: SupportsCodeModelApiVersion(3)]
  - Change the reference to System.ComponentModel.Composition in JustCode binaries to the 4.0 one shipped with .NET
- - [Optionally] Build your extensions for .NET 4.0
+ - Build your extensions for .NET 4.0
 
 We'll shortly update the extensions in this repository as well.
 
