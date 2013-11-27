@@ -8,18 +8,21 @@
     <Locale>1033</Locale>
     <License>MS-PL.rtf</License> 
     <SupportedProducts>
-			<VisualStudio Version="10.0">
-				<Edition>Ultimate</Edition>
-				<Edition>Premium</Edition>
-				<Edition>Pro</Edition>
-				<Edition>IntegratedShell</Edition>
-			</VisualStudio>
-			<VisualStudio Version="11.0">
-				<Edition>Ultimate</Edition>
-				<Edition>Premium</Edition>
-				<Edition>Pro</Edition>
-				<Edition>IntegratedShell</Edition>
-			</VisualStudio>
+		<VisualStudio Version="10.0">
+			<Edition>Ultimate</Edition>
+			<Edition>Premium</Edition>
+			<Edition>Pro</Edition>
+		</VisualStudio>
+		<VisualStudio Version="11.0">
+			<Edition>Ultimate</Edition>
+			<Edition>Premium</Edition>
+			<Edition>Pro</Edition>
+		</VisualStudio>
+		<VisualStudio Version="12.0">
+			<Edition>Ultimate</Edition>
+			<Edition>Premium</Edition>
+			<Edition>Pro</Edition>
+		</VisualStudio>
     </SupportedProducts>
     <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
   </Identifier>

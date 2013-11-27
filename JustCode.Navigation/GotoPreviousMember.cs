@@ -19,7 +19,7 @@ namespace JustCode.Navigation
 
 		public override IEnumerable<KeyBinding> GetKeyBindings(KeyBindingProfile profile)
 		{
-			yield return new KeyBinding(VSScopes.TextEditor, new KeyCombination(KeyboardModifierKeys.Alt, KeyboardKey.UpArrow));
+			yield return new KeyBinding(KeyBindingScope.TextEditor, new KeyCombination(KeyboardModifierKeys.Alt, KeyboardKey.UpArrow));
 		}
  		
 		public override IEnumerable<CommandMenuLocation> MenuLocations

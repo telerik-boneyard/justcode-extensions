@@ -35,4 +35,4 @@ using Telerik.JustCode.CommonLanguageModel;
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
-[assembly: SupportsCodeModelApiVersion(2)]
+[assembly: SupportsCodeModelApiVersion(3)]
