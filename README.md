@@ -15,9 +15,13 @@ Prerequisites
  
 How to use this project
 -------
-  1. Get the sample source code and open JustCodeExtensions.sln inside Visual Studio. 
-  2. Run/Debug the solution. Another Visual Studio instance will start with the sample extensions loaded by JustCode. 
-  3. You can test the extensions inside the started Visual Studio instance. Currently, the samples include
+  1. Get the sample source code and open JustCodeExtensions.sln inside Visual Studio.
+  2. By default JustCode.Navigation project is set as startup, but you can change it to anyone else.
+   - Right click the startup project in the VS Solution Explorer and enter Properties dialog.
+   - In the Debug tab set 'Start external program' to C:\Program Files (x86)\Microsoft Visual Studio **\<VS version\>**\Common7\IDE\devenv.exe where **\<VS version\>** should be replaced with e.g. (10.0 **|** 11.0 **|** 12.0).
+   - Set **/rootsuffix Exp** as a 'Command line argumets'.
+  3. Run/Debug the solution. Another Visual Studio instance will start with the sample extensions loaded by JustCode. 
+  4. You can test the extensions inside the started Visual Studio instance. Currently, the samples include
    - JustCode.Analyzers: Custom analyzers that make JustCode show additional warnings
    - JustCode.Cleaning: Custom code cleaning steps that are available as part of [JustCode's **Clean Code**](http://www.telerik.com/help/justcode/code-cleaning-clean-code.html) feature
    - JustCode.Navigation: Custom navigation features, that are available in [JustCode's **Navigate**](http://www.telerik.com/help/justcode/code-navigation-and-search.html) Visual Aid section
